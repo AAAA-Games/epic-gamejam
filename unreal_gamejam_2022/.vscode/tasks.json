@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "unreal_gamejam_2022 Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Test",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Test",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Test",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Shipping",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Shipping",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"Linux",
+				"Shipping",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 LinuxArm64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 LinuxArm64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 LinuxArm64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Test",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Test",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 LinuxArm64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Test",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Shipping",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Shipping",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022 LinuxArm64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022 LinuxArm64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022",
+				"LinuxArm64",
+				"Shipping",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022Editor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"Debug",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022Editor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"DebugGame",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"unreal_gamejam_2022Editor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		},
+		{
+			"label": "unreal_gamejam_2022Editor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"unreal_gamejam_2022Editor",
+				"Linux",
+				"Development",
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/opt/unreal-engine"
+			}
+		}
+	]
+}

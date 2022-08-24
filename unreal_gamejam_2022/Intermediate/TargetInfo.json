@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "unreal_gamejam_2022",
+			"Path": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "unreal_gamejam_2022Editor",
+			"Path": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

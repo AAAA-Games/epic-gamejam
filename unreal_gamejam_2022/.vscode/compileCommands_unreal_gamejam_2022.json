@@ -1,0 +1,27 @@
+[
+	{
+		"file": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022.Build.cs",
+		"command": "/opt/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/.vscode/compileCommands_unreal_gamejam_2022/unreal_gamejam_2022.199.rsp",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022.cpp",
+		"command": "/opt/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/.vscode/compileCommands_unreal_gamejam_2022/unreal_gamejam_2022.199.rsp",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022.h",
+		"command": "/opt/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/.vscode/compileCommands_unreal_gamejam_2022/unreal_gamejam_2022.199.rsp",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022GameModeBase.cpp",
+		"command": "/opt/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/.vscode/compileCommands_unreal_gamejam_2022/unreal_gamejam_2022.199.rsp",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	},
+	{
+		"file": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022GameModeBase.h",
+		"command": "/opt/unreal-engine/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v20_clang-13.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++ @/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/.vscode/compileCommands_unreal_gamejam_2022/unreal_gamejam_2022.199.rsp",
+		"directory": "/opt/unreal-engine/Engine/Source"
+	}
+]

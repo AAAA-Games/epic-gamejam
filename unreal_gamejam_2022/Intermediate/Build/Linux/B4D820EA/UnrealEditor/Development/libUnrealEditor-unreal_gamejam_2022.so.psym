@@ -1,0 +1,1198 @@
+MODULE Linux x86_64 802898C5DFB71D4500000000000000000 libUnrealEditor-unreal_gamejam_2022.so
+INFO CODE_ID C5982880B7DF451D
+FILE 0 /home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/unreal_gamejam_2022/unreal_gamejam_2022.init.gen.cpp
+FILE 1 /home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Inc/unreal_gamejam_2022/unreal_gamejam_2022GameModeBase.gen.cpp
+FILE 2 /home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022.cpp
+FILE 3 /home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022GameModeBase.cpp
+FILE 4 /home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Source/unreal_gamejam_2022/unreal_gamejam_2022GameModeBase.h
+FILE 5 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Compression/CompressedBuffer.h
+FILE 6 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Containers/Array.h
+FILE 7 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Containers/BitArray.h
+FILE 8 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Containers/ContainerAllocationPolicies.h
+FILE 9 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Containers/SparseArray.h
+FILE 10 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Containers/UnrealString.h
+FILE 11 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Delegates/DelegateBase.h
+FILE 12 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Memory/CompositeBuffer.h
+FILE 13 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Modules/ModuleInterface.h
+FILE 14 /opt/unreal-engine/Engine/Source/Runtime/Core/Public/Modules/ModuleManager.h
+FILE 15 /opt/unreal-engine/Engine/Source/Runtime/CoreUObject/Public/UObject/Class.h
+FILE 16 /opt/unreal-engine/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h
+FILE 17 /opt/unreal-engine/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBase.h
+FILE 18 /opt/unreal-engine/Engine/Source/Runtime/CoreUObject/Public/UObject/UObjectBaseUtility.h
+FILE 19 /opt/unreal-engine/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h
+FILE 20 /opt/unreal-engine/Engine/Source/Runtime/Engine/Classes/GameFramework/GameModeBase.h
+FILE 21 /opt/unreal-engine/Engine/Source/Runtime/Engine/Classes/GameFramework/Info.h
+FUNC c0d0 20 0 InitializeModule
+c0d0 1 6 2
+c0d1 f 6 2
+c0e0 e 6 2
+c0ee 2 6 2
+FUNC c0f0 16 0 operator new(unsigned long)
+c0f0 16 6 2
+FUNC c110 1 0 IMPLEMENT_MODULE_unreal_gamejam_2022
+c110 1 6 2
+FUNC c120 16 0 operator new[](unsigned long)
+c120 16 6 2
+FUNC c140 21 0 operator new(unsigned long, std::nothrow_t const&)
+c140 1 6 2
+c141 20 6 2
+FUNC c170 21 0 operator new[](unsigned long, std::nothrow_t const&)
+c170 1 6 2
+c171 20 6 2
+FUNC c1a0 11 0 operator new(unsigned long, std::align_val_t)
+c1a0 11 6 2
+FUNC c1c0 11 0 operator new[](unsigned long, std::align_val_t)
+c1c0 11 6 2
+FUNC c1e0 1c 0 operator new(unsigned long, std::align_val_t, std::nothrow_t const&)
+c1e0 1 6 2
+c1e1 1b 6 2
+FUNC c200 1c 0 operator new[](unsigned long, std::align_val_t, std::nothrow_t const&)
+c200 1 6 2
+c201 1b 6 2
+FUNC c220 10 0 operator delete(void*)
+c220 1 6 2
+c221 f 6 2
+FUNC c230 10 0 operator delete[](void*)
+c230 1 6 2
+c231 f 6 2
+FUNC c240 10 0 operator delete(void*, std::nothrow_t const&)
+c240 1 6 2
+c241 f 6 2
+FUNC c250 10 0 operator delete[](void*, std::nothrow_t const&)
+c250 1 6 2
+c251 f 6 2
+FUNC c260 10 0 operator delete(void*, unsigned long)
+c260 1 6 2
+c261 f 6 2
+FUNC c270 10 0 operator delete[](void*, unsigned long)
+c270 1 6 2
+c271 f 6 2
+FUNC c280 10 0 operator delete(void*, unsigned long, std::nothrow_t const&)
+c280 1 6 2
+c281 f 6 2
+FUNC c290 10 0 operator delete[](void*, unsigned long, std::nothrow_t const&)
+c290 1 6 2
+c291 f 6 2
+FUNC c2a0 10 0 operator delete(void*, std::align_val_t)
+c2a0 1 6 2
+c2a1 f 6 2
+FUNC c2b0 10 0 operator delete[](void*, std::align_val_t)
+c2b0 1 6 2
+c2b1 f 6 2
+FUNC c2c0 10 0 operator delete(void*, std::align_val_t, std::nothrow_t const&)
+c2c0 1 6 2
+c2c1 f 6 2
+FUNC c2d0 10 0 operator delete[](void*, std::align_val_t, std::nothrow_t const&)
+c2d0 1 6 2
+c2d1 f 6 2
+FUNC c2e0 10 0 operator delete(void*, unsigned long, std::align_val_t)
+c2e0 1 6 2
+c2e1 f 6 2
+FUNC c2f0 10 0 operator delete[](void*, unsigned long, std::align_val_t)
+c2f0 1 6 2
+c2f1 f 6 2
+FUNC c300 10 0 operator delete(void*, unsigned long, std::align_val_t, std::nothrow_t const&)
+c300 1 6 2
+c301 f 6 2
+FUNC c310 10 0 operator delete[](void*, unsigned long, std::align_val_t, std::nothrow_t const&)
+c310 1 6 2
+c311 f 6 2
+FUNC c320 18 0 FString::~FString()
+c320 1 50 10
+c321 6 50 10
+c327 2 50 10
+c329 5 50 10
+c32e 2 50 10
+c330 8 50 10
+FUNC c340 4e 0 TMulticastDelegateBase<FDefaultDelegateUserPolicy>::~TMulticastDelegateBase()
+c340 4 33 11
+c344 3 33 11
+c347 3 33 11
+c34a 2 33 11
+c34c 2 33 11
+c34e 12 33 11
+c360 8 33 11
+c368 4 33 11
+c36c 3 33 11
+c36f 2 33 11
+c371 6 33 11
+c377 2 33 11
+c379 8 33 11
+c381 5 33 11
+c386 8 33 11
+FUNC c3a0 60 0 __cxx_global_var_init.45
+c3a0 b 0 2
+c3ab 2 133 12
+c3ad 10 0 2
+c3bd 12 133 12
+c3cf a 133 12
+c3d9 7 133 12
+c3e0 20 0 2
+FUNC c400 60 0 __cxx_global_var_init.46
+c400 b 0 2
+c40b 2 154 5
+c40d 10 0 2
+c41d 12 154 5
+c42f a 154 5
+c439 7 154 5
+c440 20 0 2
+FUNC c460 2d8 0 <name omitted>
+c460 4 0 2
+c464 a 0 2
+c46e 18 0 2
+c486 18 0 2
+c49e 18 0 2
+c4b6 18 0 2
+c4ce e 0 2
+c4dc e 0 2
+c4ea e 0 2
+c4f8 e 0 2
+c506 e 0 2
+c514 e 0 2
+c522 e 0 2
+c530 e 0 2
+c53e e 0 2
+c54c e 0 2
+c55a e 0 2
+c568 e 0 2
+c576 e 0 2
+c584 e 0 2
+c592 e 0 2
+c5a0 e 0 2
+c5ae e 0 2
+c5bc e 0 2
+c5ca e 0 2
+c5d8 e 0 2
+c5e6 e 0 2
+c5f4 e 0 2
+c602 e 0 2
+c610 e 0 2
+c61e e 0 2
+c62c 1c 0 2
+c648 15 0 2
+c65d 7 0 2
+c664 18 0 2
+c67c 7 0 2
+c683 16 0 2
+c699 19 0 2
+c6b2 18 0 2
+c6ca 18 0 2
+c6e2 11 0 2
+c6f3 b 0 2
+c6fe f 0 2
+c70d 18 0 2
+c725 13 0 2
+FUNC c740 bf 0 FCompositeBuffer::~FCompositeBuffer()
+c740 b 21 12
+c74b 4 21 12
+c74f 7 21 12
+c756 2 21 12
+c758 3 21 12
+c75b 7 21 12
+c762 e 21 12
+c770 7 21 12
+c777 2 21 12
+c779 4 21 12
+c77d 3 21 12
+c780 2 21 12
+c782 d 21 12
+c78f 8 21 12
+c797 2 21 12
+c799 a 21 12
+c7a3 8 21 12
+c7ab d 21 12
+c7b8 9 21 12
+c7c1 2 21 12
+c7c3 a 21 12
+c7cd 2 21 12
+c7cf 7 21 12
+c7d6 2 21 12
+c7d8 8 21 12
+c7e0 f 21 12
+c7ef 8 21 12
+c7f7 8 21 12
+FUNC c800 bf 0 FCompressedBuffer::~FCompressedBuffer()
+c800 b 30 5
+c80b 4 30 5
+c80f 7 30 5
+c816 2 30 5
+c818 3 30 5
+c81b 7 30 5
+c822 e 30 5
+c830 7 30 5
+c837 2 30 5
+c839 4 30 5
+c83d 3 30 5
+c840 2 30 5
+c842 d 30 5
+c84f 8 30 5
+c857 2 30 5
+c859 a 30 5
+c863 8 30 5
+c86b d 30 5
+c878 9 30 5
+c881 2 30 5
+c883 a 30 5
+c88d 2 30 5
+c88f 7 30 5
+c896 2 30 5
+c898 8 30 5
+c8a0 f 30 5
+c8af 8 30 5
+c8b7 8 30 5
+FUNC c8c0 80 0 FDelegateBase::~FDelegateBase()
+c8c0 7 60 11
+c8c7 6 61 11
+c8cd 3 61 11
+c8d0 3 61 11
+c8d3 2 61 11
+c8d5 5 61 11
+c8da 6 61 11
+c8e0 2 61 11
+c8e2 9 61 11
+c8eb 3 61 11
+c8ee 5 61 11
+c8f3 6 62 11
+c8f9 4 62 11
+c8fd 2 0 8
+c8ff 7 61 11
+c906 3 62 11
+c909 2 62 11
+c90b 5 62 11
+c910 8 62 11
+c918 3 0 11
+c91b 6 62 11
+c921 2 62 11
+c923 5 62 11
+c928 8 62 11
+c930 8 62 11
+c938 8 62 11
+FUNC c940 1 0 IModuleInterface::~IModuleInterface()
+c940 1 23 13
+FUNC c950 10 0 FDefaultGameModuleImpl::~FDefaultGameModuleImpl()
+c950 1 716 14
+c951 5 716 14
+c956 2 716 14
+c958 8 716 14
+FUNC c960 1 0 IModuleInterface::StartupModule()
+c960 1 33 13
+FUNC c970 1 0 IModuleInterface::PreUnloadCallback()
+c970 1 40 13
+FUNC c980 1 0 IModuleInterface::PostLoadCallback()
+c980 1 47 13
+FUNC c990 1 0 IModuleInterface::ShutdownModule()
+c990 1 57 13
+FUNC c9a0 3 0 IModuleInterface::SupportsDynamicReloading()
+c9a0 3 66 13
+FUNC c9b0 3 0 IModuleInterface::SupportsAutomaticShutdown()
+c9b0 3 76 13
+FUNC c9c0 3 0 FDefaultGameModuleImpl::IsGameModule() const
+c9c0 3 726 14
+FUNC c9d0 60 0 __cxx_global_var_init.44
+c9d0 b 0 3
+c9db 2 133 12
+c9dd 10 0 3
+c9ed 12 133 12
+c9ff a 133 12
+ca09 7 133 12
+ca10 20 0 3
+FUNC ca30 60 0 __cxx_global_var_init.45
+ca30 b 0 3
+ca3b 2 154 5
+ca3d 10 0 3
+ca4d 12 154 5
+ca5f a 154 5
+ca69 7 154 5
+ca70 20 0 3
+FUNC ca90 2cc 0 <name omitted>
+ca90 4 0 3
+ca94 a 0 3
+ca9e 18 0 3
+cab6 18 0 3
+cace 18 0 3
+cae6 18 0 3
+cafe e 0 3
+cb0c e 0 3
+cb1a e 0 3
+cb28 e 0 3
+cb36 e 0 3
+cb44 e 0 3
+cb52 e 0 3
+cb60 e 0 3
+cb6e e 0 3
+cb7c e 0 3
+cb8a e 0 3
+cb98 e 0 3
+cba6 e 0 3
+cbb4 e 0 3
+cbc2 e 0 3
+cbd0 e 0 3
+cbde e 0 3
+cbec e 0 3
+cbfa e 0 3
+cc08 e 0 3
+cc16 e 0 3
+cc24 e 0 3
+cc32 e 0 3
+cc40 e 0 3
+cc4e e 0 3
+cc5c 1c 0 3
+cc78 15 0 3
+cc8d 7 0 3
+cc94 18 0 3
+ccac 7 0 3
+ccb3 16 0 3
+ccc9 19 0 3
+cce2 18 0 3
+ccfa 18 0 3
+cd12 11 0 3
+cd23 b 0 3
+cd2e f 0 3
+cd3d 1f 0 3
+FUNC cd60 1 0 EmptyLinkFunctionForGeneratedCodeunreal_gamejam_2022_init()
+cd60 1 9 0
+FUNC cd70 2b 0 Z_Construct_UPackage__Script_unreal_gamejam_2022()
+cd70 1 12 0
+cd71 7 13 0
+cd78 3 13 0
+cd7b 2 13 0
+cd7d 2 26 0
+cd7f 13 24 0
+cd92 7 26 0
+cd99 2 26 0
+FUNC cda0 60 0 __cxx_global_var_init.47
+cda0 b 0 0
+cdab 2 133 12
+cdad 10 0 0
+cdbd 12 133 12
+cdcf a 133 12
+cdd9 7 133 12
+cde0 20 0 0
+FUNC ce00 60 0 __cxx_global_var_init.48
+ce00 b 0 0
+ce0b 2 154 5
+ce0d 10 0 0
+ce1d 12 154 5
+ce2f a 154 5
+ce39 7 154 5
+ce40 20 0 0
+FUNC ce60 2f8 0 <name omitted>
+ce60 4 0 0
+ce64 a 0 0
+ce6e 18 0 0
+ce86 18 0 0
+ce9e 18 0 0
+ceb6 18 0 0
+cece e 0 0
+cedc e 0 0
+ceea e 0 0
+cef8 e 0 0
+cf06 e 0 0
+cf14 e 0 0
+cf22 e 0 0
+cf30 e 0 0
+cf3e e 0 0
+cf4c e 0 0
+cf5a e 0 0
+cf68 e 0 0
+cf76 e 0 0
+cf84 e 0 0
+cf92 e 0 0
+cfa0 e 0 0
+cfae e 0 0
+cfbc e 0 0
+cfca e 0 0
+cfd8 e 0 0
+cfe6 e 0 0
+cff4 e 0 0
+d002 e 0 0
+d010 e 0 0
+d01e e 0 0
+d02c 1c 0 0
+d048 15 0 0
+d05d 7 0 0
+d064 18 0 0
+d07c 7 0 0
+d083 16 0 0
+d099 19 0 0
+d0b2 18 0 0
+d0ca 18 0 0
+d0e2 11 0 0
+d0f3 b 0 0
+d0fe f 0 0
+d10d 18 0 0
+d125 a 0 0
+d12f 4 0 0
+d133 15 0 0
+d148 3 0 0
+d14b 5 0 0
+d150 8 0 0
+FUNC d160 1 0 EmptyLinkFunctionForGeneratedCodeunreal_gamejam_2022GameModeBase()
+d160 1 10 1
+FUNC d170 1 0 Aunreal_gamejam_2022GameModeBase::StaticRegisterNativesAunreal_gamejam_2022GameModeBase()
+d170 1 19 1
+FUNC d180 90 0 Aunreal_gamejam_2022GameModeBase::GetPrivateStaticClass()
+d180 5 20 1
+d185 a 20 1
+d18f 8 20 1
+d197 6c 20 1
+d203 d 20 1
+FUNC d210 90 0 Z_Construct_UClass_Aunreal_gamejam_2022GameModeBase_NoRegister()
+d210 5 23 1
+d215 a 23 1
+d21f 2 23 1
+d221 6 23 1
+d227 6c 23 1
+d293 7 23 1
+d29a 6 23 1
+FUNC d2a0 2b 0 Z_Construct_UClass_Aunreal_gamejam_2022GameModeBase()
+d2a0 1 66 1
+d2a1 7 67 1
+d2a8 3 67 1
+d2ab 2 67 1
+d2ad 2 71 1
+d2af 13 69 1
+d2c2 7 71 1
+d2c9 2 71 1
+FUNC d2d0 90 0 UClass* StaticClass<Aunreal_gamejam_2022GameModeBase>()
+d2d0 5 75 1
+d2d5 a 75 1
+d2df 2 75 1
+d2e1 6 75 1
+d2e7 6c 75 1
+d353 7 75 1
+d35a 6 75 1
+FUNC d360 19 0 Aunreal_gamejam_2022GameModeBase::Aunreal_gamejam_2022GameModeBase(FVTableHelper&)
+d360 4 77 1
+d364 15 77 1
+FUNC d380 1f 0 void InternalConstructor<Aunreal_gamejam_2022GameModeBase>(FObjectInitializer const&)
+d380 4 3483 15
+d384 3 3484 15
+d387 16 3484 15
+d39d 2 3485 15
+FUNC d3a0 e9 0 UObject* InternalVTableHelperCtorCaller<Aunreal_gamejam_2022GameModeBase>(FVTableHelper&)
+d3a0 c 3493 15
+d3ac 8 3494 15
+d3b4 a 3494 15
+d3be 2 3494 15
+d3c0 6d 3494 15
+d42d 7 3494 15
+d434 2f 3494 15
+d463 19 3494 15
+d47c d 3494 15
+FUNC d490 5 0 AGameModeBase::StaticClass()
+d490 5 48 20
+FUNC d4a0 5 0 UObject::StaticClass()
+d4a0 5 54 16
+FUNC d4b0 90 0 Aunreal_gamejam_2022GameModeBase::StaticClass()
+d4b0 5 15 4
+d4b5 a 15 4
+d4bf 2 15 4
+d4c1 6 15 4
+d4c7 6c 15 4
+d533 7 15 4
+d53a 6 15 4
+FUNC d540 7c 0 AGameModeBase::~AGameModeBase()
+d540 7 46 20
+d547 e 46 20
+d555 c 46 20
+d561 7 46 20
+d568 3 46 20
+d56b 2 46 20
+d56d 5 46 20
+d572 2 46 20
+d574 8 46 20
+d57c 5 46 20
+d581 2 46 20
+d583 9 46 20
+d58c a 46 20
+d596 2 46 20
+d598 5 46 20
+d59d f 46 20
+d5ac 8 46 20
+d5b4 8 46 20
+FUNC d5c0 86 0 Aunreal_gamejam_2022GameModeBase::~Aunreal_gamejam_2022GameModeBase()
+d5c0 7 13 4
+d5c7 e 13 4
+d5d5 c 13 4
+d5e1 7 13 4
+d5e8 3 13 4
+d5eb 2 13 4
+d5ed 6 13 4
+d5f3 2 13 4
+d5f5 8 13 4
+d5fd 6 13 4
+d603 2 13 4
+d605 9 13 4
+d60e a 13 4
+d618 2 13 4
+d61a 5 13 4
+d61f 8 13 4
+d627 f 13 4
+d636 8 13 4
+d63e 8 13 4
+FUNC d650 1 0 UObjectBase::RegisterDependencies()
+d650 1 78 17
+FUNC d660 3 0 UObjectBaseUtility::CanBeClusterRoot() const
+d660 3 467 18
+FUNC d670 1 0 UObjectBaseUtility::OnClusterMarkedAsPendingKill()
+d670 1 485 18
+FUNC d680 15 0 UObject::GetDetailedInfoInternal() const
+d680 4 195 16
+d684 c 195 16
+d690 5 195 16
+FUNC d6a0 1 0 UObject::PostCDOContruct()
+d6a0 1 216 16
+FUNC d6b0 1 0 UObject::PostCDOCompiled()
+d6b0 1 226 16
+FUNC d6c0 1 0 UObject::LoadedFromAnotherClass(FName const&)
+d6c0 1 285 16
+FUNC d6d0 3 0 UObject::ResolveSubobject(char16_t const*, UObject*&, bool)
+d6d0 3 300 16
+FUNC d6e0 3 0 UObject::IsReadyForAsyncPostLoad() const
+d6e0 3 305 16
+FUNC d6f0 1 0 UObject::PostLinkerChange()
+d6f0 1 339 16
+FUNC d700 1 0 UObject::ShutdownAfterError()
+d700 1 363 16
+FUNC d710 1 0 UObject::PostInterpChange(FProperty*)
+d710 1 370 16
+FUNC d720 1 0 UObject::PreDuplicate(FObjectDuplicationParameters&)
+d720 1 465 16
+FUNC d730 1 0 UObject::PostDuplicate(bool)
+d730 1 471 16
+FUNC d740 16 0 UObject::PostDuplicate(EDuplicateMode::Type)
+d740 8 474 16
+d748 e 474 16
+FUNC d760 3 0 UObject::NeedsLoadForEditorGame() const
+d760 3 509 16
+FUNC d770 3 0 UObject::HasNonEditorOnlyReferences() const
+d770 3 530 16
+FUNC d780 3 0 UObject::IsPostLoadThreadSafe() const
+d780 3 540 16
+FUNC d790 1 0 UObject::GetPrestreamPackages(TArray<UObject*, TSizedDefaultAllocator<32> >&)
+d790 1 564 16
+FUNC d7a0 1 0 UObject::ExportCustomProperties(FOutputDevice&, unsigned int)
+d7a0 1 591 16
+FUNC d7b0 1 0 UObject::ImportCustomProperties(char16_t const*, FFeedbackContext*)
+d7b0 1 602 16
+FUNC d7c0 1 0 UObject::PostReloadConfig(FProperty*)
+d7c0 1 614 16
+FUNC d7d0 15 0 UObject::GetDesc()
+d7d0 4 627 16
+d7d4 c 627 16
+d7e0 5 627 16
+FUNC d7f0 1 0 UObject::MoveDataToSparseClassDataStruct() const
+d7f0 1 633 16
+FUNC d800 3 0 UObject::GetNativePropertyValues(TMap<FString, FString, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FString, FString, false> >&, unsigned int) const
+d800 3 664 16
+FUNC d810 28 0 UObject::GetExporterName()
+d810 4 694 16
+d814 16 695 16
+d82a e 695 16
+FUNC d840 3 0 UObject::GetRestoreForUObjectOverwrite()
+d840 3 722 16
+FUNC d850 3 0 UObject::AreNativePropertiesIdenticalTo(UObject*) const
+d850 3 734 16
+FUNC d860 1 0 UObject::PostRepNotifies()
+d860 1 906 16
+FUNC d870 1 0 UObject::BeginCacheForCookedPlatformData(ITargetPlatform const*)
+d870 1 1012 16
+FUNC d880 3 0 UObject::IsCachedCookedPlatformDataLoaded(ITargetPlatform const*)
+d880 3 1019 16
+FUNC d890 1 0 UObject::WillNeverCacheCookedPlatformDataAgain()
+d890 1 1024 16
+FUNC d8a0 1 0 UObject::ClearCachedCookedPlatformData(ITargetPlatform const*)
+d8a0 1 1031 16
+FUNC d8b0 1 0 UObject::ClearAllCachedCookedPlatformData()
+d8b0 1 1038 16
+FUNC d8c0 1 0 UObject::CookAdditionalFiles(char16_t const*, ITargetPlatform const*)
+d8c0 1 1048 16
+FUNC d8d0 c 0 UObject::CookAdditionalFilesOverride(char16_t const*, ITargetPlatform const*, TFunctionRef<void (char16_t const*, void*, long long)>)
+d8d0 c 1079 16
+FUNC d8e0 3 0 UObject::GetConfigOverridePlatform() const
+d8e0 3 1186 16
+FUNC d8f0 1 0 UObject::OverrideConfigSection(FString&)
+d8f0 1 1193 16
+FUNC d900 1 0 UObject::OverridePerObjectConfigSection(FString&)
+d900 1 1200 16
+FUNC d910 8 0 UObject::ProcessConsoleExec(char16_t const*, FOutputDevice&, UObject*)
+d910 8 1330 16
+FUNC d920 3 0 UObject::RegenerateClass(UClass*, UObject*)
+d920 3 1344 16
+FUNC d930 1 0 UObject::MarkAsEditorOnlySubobject()
+d930 1 1357 16
+FUNC d940 4 0 AActor::SetNetPushIdDynamic(int)
+d940 4 165 19
+FUNC d950 4 0 AActor::GetNetPushIdDynamic() const
+d950 3 165 19
+d953 1 165 19
+FUNC d960 a 0 AActor::IsInEditingLevelInstance() const
+d960 9 272 19
+d969 1 272 19
+FUNC d970 3 0 AActor::ShouldLevelKeepRefIfExternal() const
+d970 3 861 19
+FUNC d980 e 0 AActor::GetRuntimeGrid() const
+d980 d 867 19
+d98d 1 867 19
+FUNC d990 c 0 AActor::IsLockLocation() const
+d990 b 879 19
+d99b 1 879 19
+FUNC d9a0 3 0 AInfo::SupportsDataLayer() const
+d9a0 3 37 21
+FUNC d9b0 5 0 AGameModeBase::GetActorBounds(bool, UE::Math::TVector<double>&, UE::Math::TVector<double>&, bool) const
+d9b0 5 592 20
+FUNC d9c0 e 0 AGameModeBase::GetVelocity() const
+d9c0 4 592 20
+d9c4 a 592 20
+FUNC d9d0 3 0 AActor::IsDefaultPreviewEnabled() const
+d9d0 3 1958 19
+FUNC d9e0 3 0 AActor::IsUserManaged() const
+d9e0 3 1962 19
+FUNC d9f0 3 0 AActor::CanEditChangeComponent(UActorComponent const*, FProperty const*) const
+d9f0 3 2054 19
+FUNC da00 46 0 AActor::GetDefaultAttachComponent() const
+da00 4 2081 19
+da04 7 2081 19
+da0b 5 2081 19
+da10 3 2081 19
+da13 d 2081 19
+da20 7 2081 19
+da27 a 2081 19
+da31 3 2081 19
+da34 2 2081 19
+da36 5 2081 19
+da3b b 2081 19
+FUNC da50 3 0 AInfo::IsLevelBoundsRelevant() const
+da50 3 33 21
+FUNC da60 3 0 AInfo::CanChangeIsSpatiallyLoadedFlag() const
+da60 3 36 21
+FUNC da70 3 0 AActor::ShouldExport()
+da70 3 2278 19
+FUNC da80 3 0 AActor::ShouldImport(FString*, bool)
+da80 3 2281 19
+FUNC da90 1 0 AActor::EditorKeyPressed(FKey, EInputEvent)
+da90 1 2284 19
+FUNC daa0 1 0 AActor::EditorReplacedActor(AActor*)
+daa0 1 2287 19
+FUNC dab0 5 0 AActor::GetCustomIconName() const
+dab0 5 2369 19
+FUNC dac0 1 0 AActor::OnActorChannelOpen(FInBunch&, UNetConnection*)
+dac0 1 2411 19
+FUNC dad0 3 0 AActor::UseShortConnectTimeout() const
+dad0 3 2418 19
+FUNC dae0 1 0 AActor::OnSerializeNewActor(FOutBunch&)
+dae0 1 2424 19
+FUNC daf0 1 0 AActor::OnNetCleanup(UNetConnection*)
+daf0 1 2430 19
+FUNC db00 46 0 AActor::GetNetOwner() const
+db00 4 4021 19
+db04 7 4021 19
+db0b 5 4021 19
+db10 3 4021 19
+db13 d 4021 19
+db20 7 4021 19
+db27 a 4021 19
+db31 3 4021 19
+db34 2 4021 19
+db36 5 4021 19
+db3b b 4021 19
+FUNC db50 5 0 AGameModeBase::TeleportTo(UE::Math::TVector<double> const&, UE::Math::TRotator<double> const&, bool, bool)
+db50 5 592 20
+FUNC db60 1 0 AActor::TeleportSucceeded(bool)
+db60 1 2864 19
+FUNC db70 1 0 AActor::OnConstruction(UE::Math::TTransform<double> const&)
+db70 1 2968 19
+FUNC db80 3 0 AActor::IsComponentRelevantForNavigation(UActorComponent*) const
+db80 3 3598 19
+FUNC db90 1 0 AGameModeBase::OnPostLogin(AController*)
+db90 1 319 20
+FUNC dba0 12 0 AGameModeBase::ProcessClientTravel(FString&, FGuid, bool, bool)
+dba0 6 559 20
+dba6 c 560 20
+FUNC dbc0 60 0 __cxx_global_var_init.57
+dbc0 b 0 1
+dbcb 2 133 12
+dbcd 10 0 1
+dbdd 12 133 12
+dbef a 133 12
+dbf9 7 133 12
+dc00 20 0 1
+FUNC dc20 60 0 __cxx_global_var_init.58
+dc20 b 0 1
+dc2b 2 154 5
+dc2d 10 0 1
+dc3d 12 154 5
+dc4f a 154 5
+dc59 7 154 5
+dc60 20 0 1
+FUNC dc80 2f5 0 <name omitted>
+dc80 4 0 1
+dc84 a 0 1
+dc8e 18 0 1
+dca6 18 0 1
+dcbe 18 0 1
+dcd6 18 0 1
+dcee e 0 1
+dcfc e 0 1
+dd0a e 0 1
+dd18 e 0 1
+dd26 e 0 1
+dd34 e 0 1
+dd42 e 0 1
+dd50 e 0 1
+dd5e e 0 1
+dd6c e 0 1
+dd7a e 0 1
+dd88 e 0 1
+dd96 e 0 1
+dda4 e 0 1
+ddb2 e 0 1
+ddc0 e 0 1
+ddce e 0 1
+dddc e 0 1
+ddea e 0 1
+ddf8 e 0 1
+de06 e 0 1
+de14 e 0 1
+de22 e 0 1
+de30 e 0 1
+de3e e 0 1
+de4c 1c 0 1
+de68 15 0 1
+de7d 7 0 1
+de84 18 0 1
+de9c 7 0 1
+dea3 16 0 1
+deb9 19 0 1
+ded2 18 0 1
+deea 18 0 1
+df02 11 0 1
+df13 b 0 1
+df1e f 0 1
+df2d 18 0 1
+df45 28 0 1
+df6d 8 0 1
+FUNC df80 91 0 TArray<TDelegate<bool (), FDefaultDelegateUserPolicy>, TSizedDefaultAllocator<32> >::~TArray()
+df80 4 612 6
+df84 3 612 6
+df87 3 612 6
+df8a 2 612 6
+df8c 2 612 6
+df8e 12 612 6
+dfa0 7 612 6
+dfa7 8 612 6
+dfaf 4 612 6
+dfb3 3 612 6
+dfb6 2 612 6
+dfb8 6 612 6
+dfbe 3 612 6
+dfc1 3 612 6
+dfc4 2 612 6
+dfc6 5 612 6
+dfcb 6 612 6
+dfd1 2 612 6
+dfd3 9 612 6
+dfdc 5 612 6
+dfe1 6 616 6
+dfe7 2 616 6
+dfe9 8 616 6
+dff1 5 616 6
+dff6 8 616 6
+dffe 3 0 8
+e001 10 612 6
+FUNC e020 1fe 0 AActor::~AActor()
+e020 7 163 19
+e027 e 163 19
+e035 a 163 19
+e03f 2 163 19
+e041 5 163 19
+e046 2 163 19
+e048 5 163 19
+e04d a 163 19
+e057 2 163 19
+e059 5 163 19
+e05e a 163 19
+e068 2 163 19
+e06a 5 163 19
+e06f b 163 19
+e07a a 163 19
+e084 2 163 19
+e086 5 163 19
+e08b c 163 19
+e097 b 163 19
+e0a2 a 163 19
+e0ac 2 163 19
+e0ae 5 163 19
+e0b3 c 163 19
+e0bf a 163 19
+e0c9 2 163 19
+e0cb 5 163 19
+e0d0 7 163 19
+e0d7 3 163 19
+e0da 2 163 19
+e0dc 5 163 19
+e0e1 2 163 19
+e0e3 8 163 19
+e0eb 5 163 19
+e0f0 2 163 19
+e0f2 9 163 19
+e0fb a 163 19
+e105 2 163 19
+e107 5 163 19
+e10c a 163 19
+e116 2 163 19
+e118 5 163 19
+e11d 7 163 19
+e124 7 163 19
+e12b 2 163 19
+e12d 3 163 19
+e130 8 163 19
+e138 4 163 19
+e13c 3 163 19
+e13f 2 163 19
+e141 a 163 19
+e14b 2 163 19
+e14d 8 163 19
+e155 a 163 19
+e15f 2 163 19
+e161 5 163 19
+e166 a 163 19
+e170 2 163 19
+e172 5 163 19
+e177 a 163 19
+e181 2 163 19
+e183 5 163 19
+e188 a 163 19
+e192 2 163 19
+e194 5 163 19
+e199 15 163 19
+e1ae 8 163 19
+e1b6 8 163 19
+e1be 8 163 19
+e1c6 8 163 19
+e1ce 8 163 19
+e1d6 8 163 19
+e1de 8 163 19
+e1e6 8 163 19
+e1ee 8 163 19
+e1f6 8 163 19
+e1fe 8 163 19
+e206 8 163 19
+e20e 8 163 19
+e216 8 163 19
+FUNC e220 98 0 TSparseArray<TSetElement<TTuple<FName, FObjectProperty*> >, TSparseArrayAllocator<TSizedDefaultAllocator<32>, FDefaultBitArrayAllocator> >::~TSparseArray()
+e220 7 88 9
+e227 7 90 9
+e22e 4 90 9
+e232 2 90 9
+e234 a 90 9
+e23e 5 90 9
+e243 4 90 9
+e247 7 90 9
+e24e 9 90 9
+e257 4 90 9
+e25b 7 90 9
+e262 7 90 9
+e269 7 91 9
+e270 2 91 9
+e272 5 91 9
+e277 6 91 9
+e27d 2 91 9
+e27f 5 91 9
+e284 8 91 9
+e28c 8 91 9
+e294 8 91 9
+e29c 3 0 8
+e29f 19 91 9
+FUNC e2c0 19 0 TBitArray<FDefaultBitArrayAllocator>::~TBitArray()
+e2c0 1 242 7
+e2c1 7 242 7
+e2c8 2 242 7
+e2ca 5 242 7
+e2cf 2 242 7
+e2d1 8 242 7
+FUNC e2e0 18 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<32, 8u> >, TSizedDefaultAllocator<32> >::~TArray()
+e2e0 1 602 6
+e2e1 6 616 6
+e2e7 2 616 6
+e2e9 5 616 6
+e2ee 2 616 6
+e2f0 8 616 6
+FUNC e300 68 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<32, 8u> >, TSizedDefaultAllocator<32> >::ResizeTo(int)
+e300 6 2795 6
+e306 2 2796 6
+e308 2 2796 6
+e30a 2 0 6
+e30c 3 2798 6
+e30f 4 2798 6
+e313 a 2798 6
+e31d 4 2798 6
+e321 7 2798 6
+e328 3 2798 6
+e32b 3 2800 6
+e32e 2 2800 6
+e330 7 2805 6
+e337 2 0 6
+e339 3 2800 6
+e33c 2 2800 6
+e33e 3 2802 6
+e341 6 2803 6
+e347 6 2803 6
+e34d 3 2803 6
+e350 4 2803 6
+e354 a 2803 6
+e35e 3 2803 6
+e361 7 2805 6
+FUNC e370 b4 0 TBitArray<FDefaultBitArrayAllocator>::Realloc(int)
+e370 9 1670 7
+e379 3 1671 7
+e37c 3 1671 7
+e37f 3 1672 7
+e382 3 1672 7
+e385 4 1674 7
+e389 6 1674 7
+e38f 2 1674 7
+e391 3 1674 7
+e394 2 1674 7
+e396 3 1674 7
+e399 e 1674 7
+e3a7 7 1674 7
+e3ae 2 1674 7
+e3b0 4 1674 7
+e3b4 6 1674 7
+e3ba 3 1674 7
+e3bd 3 1674 7
+e3c0 2 1674 7
+e3c2 d 1674 7
+e3cf 7 1674 7
+e3d6 4 1674 7
+e3da 3 1674 7
+e3dd e 1674 7
+e3eb 4 1675 7
+e3ef d 1675 7
+e3fc 2 1675 7
+e3fe 2 1675 7
+e400 3 1675 7
+e403 4 1675 7
+e407 7 1675 7
+e40e 2 1675 7
+e410 3 1675 7
+e413 6 1675 7
+e419 3 1675 7
+e41c 8 1676 7
+FUNC e430 98 0 TSparseArray<TSetElement<UActorComponent*>, TSparseArrayAllocator<TSizedDefaultAllocator<32>, FDefaultBitArrayAllocator> >::~TSparseArray()
+e430 7 88 9
+e437 7 90 9
+e43e 4 90 9
+e442 2 90 9
+e444 a 90 9
+e44e 5 90 9
+e453 4 90 9
+e457 7 90 9
+e45e 9 90 9
+e467 4 90 9
+e46b 7 90 9
+e472 7 90 9
+e479 7 91 9
+e480 2 91 9
+e482 5 91 9
+e487 6 91 9
+e48d 2 91 9
+e48f 5 91 9
+e494 8 91 9
+e49c 8 91 9
+e4a4 8 91 9
+e4ac 3 0 8
+e4af 19 91 9
+FUNC e4d0 18 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<16, 8u> >, TSizedDefaultAllocator<32> >::~TArray()
+e4d0 1 602 6
+e4d1 6 616 6
+e4d7 2 616 6
+e4d9 5 616 6
+e4de 2 616 6
+e4e0 8 616 6
+FUNC e4f0 68 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<16, 8u> >, TSizedDefaultAllocator<32> >::ResizeTo(int)
+e4f0 6 2795 6
+e4f6 2 2796 6
+e4f8 2 2796 6
+e4fa 2 0 6
+e4fc 3 2798 6
+e4ff 4 2798 6
+e503 a 2798 6
+e50d 4 2798 6
+e511 7 2798 6
+e518 3 2798 6
+e51b 3 2800 6
+e51e 2 2800 6
+e520 7 2805 6
+e527 2 0 6
+e529 3 2800 6
+e52c 2 2800 6
+e52e 3 2802 6
+e531 6 2803 6
+e537 6 2803 6
+e53d 3 2803 6
+e540 4 2803 6
+e544 a 2803 6
+e54e 3 2803 6
+e551 7 2805 6
+PUBLIC bfd0 0 deregister_tm_clones
+PUBLIC bffc 0 register_tm_clones
+PUBLIC c038 0 __do_global_dtors_aux
+PUBLIC c0a7 0 frame_dummy
+PUBLIC c0d0 0 InitializeModule
+PUBLIC c0f0 0 operator new(unsigned long)
+PUBLIC c110 0 IMPLEMENT_MODULE_unreal_gamejam_2022
+PUBLIC c120 0 operator new[](unsigned long)
+PUBLIC c140 0 operator new(unsigned long, std::nothrow_t const&)
+PUBLIC c170 0 operator new[](unsigned long, std::nothrow_t const&)
+PUBLIC c1a0 0 operator new(unsigned long, std::align_val_t)
+PUBLIC c1c0 0 operator new[](unsigned long, std::align_val_t)
+PUBLIC c1e0 0 operator new(unsigned long, std::align_val_t, std::nothrow_t const&)
+PUBLIC c200 0 operator new[](unsigned long, std::align_val_t, std::nothrow_t const&)
+PUBLIC c220 0 operator delete(void*)
+PUBLIC c230 0 operator delete[](void*)
+PUBLIC c240 0 operator delete(void*, std::nothrow_t const&)
+PUBLIC c250 0 operator delete[](void*, std::nothrow_t const&)
+PUBLIC c260 0 operator delete(void*, unsigned long)
+PUBLIC c270 0 operator delete[](void*, unsigned long)
+PUBLIC c280 0 operator delete(void*, unsigned long, std::nothrow_t const&)
+PUBLIC c290 0 operator delete[](void*, unsigned long, std::nothrow_t const&)
+PUBLIC c2a0 0 operator delete(void*, std::align_val_t)
+PUBLIC c2b0 0 operator delete[](void*, std::align_val_t)
+PUBLIC c2c0 0 operator delete(void*, std::align_val_t, std::nothrow_t const&)
+PUBLIC c2d0 0 operator delete[](void*, std::align_val_t, std::nothrow_t const&)
+PUBLIC c2e0 0 operator delete(void*, unsigned long, std::align_val_t)
+PUBLIC c2f0 0 operator delete[](void*, unsigned long, std::align_val_t)
+PUBLIC c300 0 operator delete(void*, unsigned long, std::align_val_t, std::nothrow_t const&)
+PUBLIC c310 0 operator delete[](void*, unsigned long, std::align_val_t, std::nothrow_t const&)
+PUBLIC c320 0 FString::~FString()
+PUBLIC c340 0 TMulticastDelegateBase<FDefaultDelegateUserPolicy>::~TMulticastDelegateBase()
+PUBLIC c390 0 __clang_call_terminate
+PUBLIC c3a0 0 __cxx_global_var_init.45
+PUBLIC c400 0 __cxx_global_var_init.46
+PUBLIC c460 0 _GLOBAL__sub_I_unreal_gamejam_2022.cpp
+PUBLIC c740 0 FCompositeBuffer::~FCompositeBuffer()
+PUBLIC c800 0 FCompressedBuffer::~FCompressedBuffer()
+PUBLIC c8c0 0 FDelegateBase::~FDelegateBase()
+PUBLIC c940 0 IModuleInterface::~IModuleInterface()
+PUBLIC c950 0 FDefaultGameModuleImpl::~FDefaultGameModuleImpl()
+PUBLIC c960 0 IModuleInterface::StartupModule()
+PUBLIC c970 0 IModuleInterface::PreUnloadCallback()
+PUBLIC c980 0 IModuleInterface::PostLoadCallback()
+PUBLIC c990 0 IModuleInterface::ShutdownModule()
+PUBLIC c9a0 0 IModuleInterface::SupportsDynamicReloading()
+PUBLIC c9b0 0 IModuleInterface::SupportsAutomaticShutdown()
+PUBLIC c9c0 0 FDefaultGameModuleImpl::IsGameModule() const
+PUBLIC c9d0 0 __cxx_global_var_init.44
+PUBLIC ca30 0 __cxx_global_var_init.45
+PUBLIC ca90 0 _GLOBAL__sub_I_unreal_gamejam_2022GameModeBase.cpp
+PUBLIC cd60 0 EmptyLinkFunctionForGeneratedCodeunreal_gamejam_2022_init()
+PUBLIC cd70 0 Z_Construct_UPackage__Script_unreal_gamejam_2022()
+PUBLIC cda0 0 __cxx_global_var_init.47
+PUBLIC ce00 0 __cxx_global_var_init.48
+PUBLIC ce60 0 _GLOBAL__sub_I_unreal_gamejam_2022.init.gen.cpp
+PUBLIC d160 0 EmptyLinkFunctionForGeneratedCodeunreal_gamejam_2022GameModeBase()
+PUBLIC d170 0 Aunreal_gamejam_2022GameModeBase::StaticRegisterNativesAunreal_gamejam_2022GameModeBase()
+PUBLIC d180 0 Aunreal_gamejam_2022GameModeBase::GetPrivateStaticClass()
+PUBLIC d210 0 Z_Construct_UClass_Aunreal_gamejam_2022GameModeBase_NoRegister()
+PUBLIC d2a0 0 Z_Construct_UClass_Aunreal_gamejam_2022GameModeBase()
+PUBLIC d2d0 0 UClass* StaticClass<Aunreal_gamejam_2022GameModeBase>()
+PUBLIC d360 0 Aunreal_gamejam_2022GameModeBase::Aunreal_gamejam_2022GameModeBase(FVTableHelper&)
+PUBLIC d380 0 void InternalConstructor<Aunreal_gamejam_2022GameModeBase>(FObjectInitializer const&)
+PUBLIC d3a0 0 UObject* InternalVTableHelperCtorCaller<Aunreal_gamejam_2022GameModeBase>(FVTableHelper&)
+PUBLIC d490 0 AGameModeBase::StaticClass()
+PUBLIC d4a0 0 UObject::StaticClass()
+PUBLIC d4b0 0 Aunreal_gamejam_2022GameModeBase::StaticClass()
+PUBLIC d540 0 AGameModeBase::~AGameModeBase()
+PUBLIC d5c0 0 Aunreal_gamejam_2022GameModeBase::~Aunreal_gamejam_2022GameModeBase()
+PUBLIC d650 0 UObjectBase::RegisterDependencies()
+PUBLIC d660 0 UObjectBaseUtility::CanBeClusterRoot() const
+PUBLIC d670 0 UObjectBaseUtility::OnClusterMarkedAsPendingKill()
+PUBLIC d680 0 UObject::GetDetailedInfoInternal() const
+PUBLIC d6a0 0 UObject::PostCDOContruct()
+PUBLIC d6b0 0 UObject::PostCDOCompiled()
+PUBLIC d6c0 0 UObject::LoadedFromAnotherClass(FName const&)
+PUBLIC d6d0 0 UObject::ResolveSubobject(char16_t const*, UObject*&, bool)
+PUBLIC d6e0 0 UObject::IsReadyForAsyncPostLoad() const
+PUBLIC d6f0 0 UObject::PostLinkerChange()
+PUBLIC d700 0 UObject::ShutdownAfterError()
+PUBLIC d710 0 UObject::PostInterpChange(FProperty*)
+PUBLIC d720 0 UObject::PreDuplicate(FObjectDuplicationParameters&)
+PUBLIC d730 0 UObject::PostDuplicate(bool)
+PUBLIC d740 0 UObject::PostDuplicate(EDuplicateMode::Type)
+PUBLIC d760 0 UObject::NeedsLoadForEditorGame() const
+PUBLIC d770 0 UObject::HasNonEditorOnlyReferences() const
+PUBLIC d780 0 UObject::IsPostLoadThreadSafe() const
+PUBLIC d790 0 UObject::GetPrestreamPackages(TArray<UObject*, TSizedDefaultAllocator<32> >&)
+PUBLIC d7a0 0 UObject::ExportCustomProperties(FOutputDevice&, unsigned int)
+PUBLIC d7b0 0 UObject::ImportCustomProperties(char16_t const*, FFeedbackContext*)
+PUBLIC d7c0 0 UObject::PostReloadConfig(FProperty*)
+PUBLIC d7d0 0 UObject::GetDesc()
+PUBLIC d7f0 0 UObject::MoveDataToSparseClassDataStruct() const
+PUBLIC d800 0 UObject::GetNativePropertyValues(TMap<FString, FString, FDefaultSetAllocator, TDefaultMapHashableKeyFuncs<FString, FString, false> >&, unsigned int) const
+PUBLIC d810 0 UObject::GetExporterName()
+PUBLIC d840 0 UObject::GetRestoreForUObjectOverwrite()
+PUBLIC d850 0 UObject::AreNativePropertiesIdenticalTo(UObject*) const
+PUBLIC d860 0 UObject::PostRepNotifies()
+PUBLIC d870 0 UObject::BeginCacheForCookedPlatformData(ITargetPlatform const*)
+PUBLIC d880 0 UObject::IsCachedCookedPlatformDataLoaded(ITargetPlatform const*)
+PUBLIC d890 0 UObject::WillNeverCacheCookedPlatformDataAgain()
+PUBLIC d8a0 0 UObject::ClearCachedCookedPlatformData(ITargetPlatform const*)
+PUBLIC d8b0 0 UObject::ClearAllCachedCookedPlatformData()
+PUBLIC d8c0 0 UObject::CookAdditionalFiles(char16_t const*, ITargetPlatform const*)
+PUBLIC d8d0 0 UObject::CookAdditionalFilesOverride(char16_t const*, ITargetPlatform const*, TFunctionRef<void (char16_t const*, void*, long long)>)
+PUBLIC d8e0 0 UObject::GetConfigOverridePlatform() const
+PUBLIC d8f0 0 UObject::OverrideConfigSection(FString&)
+PUBLIC d900 0 UObject::OverridePerObjectConfigSection(FString&)
+PUBLIC d910 0 UObject::ProcessConsoleExec(char16_t const*, FOutputDevice&, UObject*)
+PUBLIC d920 0 UObject::RegenerateClass(UClass*, UObject*)
+PUBLIC d930 0 UObject::MarkAsEditorOnlySubobject()
+PUBLIC d940 0 AActor::SetNetPushIdDynamic(int)
+PUBLIC d950 0 AActor::GetNetPushIdDynamic() const
+PUBLIC d960 0 AActor::IsInEditingLevelInstance() const
+PUBLIC d970 0 AActor::ShouldLevelKeepRefIfExternal() const
+PUBLIC d980 0 AActor::GetRuntimeGrid() const
+PUBLIC d990 0 AActor::IsLockLocation() const
+PUBLIC d9a0 0 AInfo::SupportsDataLayer() const
+PUBLIC d9b0 0 AGameModeBase::GetActorBounds(bool, UE::Math::TVector<double>&, UE::Math::TVector<double>&, bool) const
+PUBLIC d9c0 0 AGameModeBase::GetVelocity() const
+PUBLIC d9d0 0 AActor::IsDefaultPreviewEnabled() const
+PUBLIC d9e0 0 AActor::IsUserManaged() const
+PUBLIC d9f0 0 AActor::CanEditChangeComponent(UActorComponent const*, FProperty const*) const
+PUBLIC da00 0 AActor::GetDefaultAttachComponent() const
+PUBLIC da50 0 AInfo::IsLevelBoundsRelevant() const
+PUBLIC da60 0 AInfo::CanChangeIsSpatiallyLoadedFlag() const
+PUBLIC da70 0 AActor::ShouldExport()
+PUBLIC da80 0 AActor::ShouldImport(FString*, bool)
+PUBLIC da90 0 AActor::EditorKeyPressed(FKey, EInputEvent)
+PUBLIC daa0 0 AActor::EditorReplacedActor(AActor*)
+PUBLIC dab0 0 AActor::GetCustomIconName() const
+PUBLIC dac0 0 AActor::OnActorChannelOpen(FInBunch&, UNetConnection*)
+PUBLIC dad0 0 AActor::UseShortConnectTimeout() const
+PUBLIC dae0 0 AActor::OnSerializeNewActor(FOutBunch&)
+PUBLIC daf0 0 AActor::OnNetCleanup(UNetConnection*)
+PUBLIC db00 0 AActor::GetNetOwner() const
+PUBLIC db50 0 AGameModeBase::TeleportTo(UE::Math::TVector<double> const&, UE::Math::TRotator<double> const&, bool, bool)
+PUBLIC db60 0 AActor::TeleportSucceeded(bool)
+PUBLIC db70 0 AActor::OnConstruction(UE::Math::TTransform<double> const&)
+PUBLIC db80 0 AActor::IsComponentRelevantForNavigation(UActorComponent*) const
+PUBLIC db90 0 AGameModeBase::OnPostLogin(AController*)
+PUBLIC dba0 0 AGameModeBase::ProcessClientTravel(FString&, FGuid, bool, bool)
+PUBLIC dbc0 0 __cxx_global_var_init.57
+PUBLIC dc20 0 __cxx_global_var_init.58
+PUBLIC dc80 0 _GLOBAL__sub_I_unreal_gamejam_2022GameModeBase.gen.cpp
+PUBLIC df80 0 TArray<TDelegate<bool (), FDefaultDelegateUserPolicy>, TSizedDefaultAllocator<32> >::~TArray()
+PUBLIC e020 0 AActor::~AActor()
+PUBLIC e220 0 TSparseArray<TSetElement<TTuple<FName, FObjectProperty*> >, TSparseArrayAllocator<TSizedDefaultAllocator<32>, FDefaultBitArrayAllocator> >::~TSparseArray()
+PUBLIC e2c0 0 TBitArray<FDefaultBitArrayAllocator>::~TBitArray()
+PUBLIC e2e0 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<32, 8u> >, TSizedDefaultAllocator<32> >::~TArray()
+PUBLIC e300 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<32, 8u> >, TSizedDefaultAllocator<32> >::ResizeTo(int)
+PUBLIC e370 0 TBitArray<FDefaultBitArrayAllocator>::Realloc(int)
+PUBLIC e430 0 TSparseArray<TSetElement<UActorComponent*>, TSparseArrayAllocator<TSizedDefaultAllocator<32>, FDefaultBitArrayAllocator> >::~TSparseArray()
+PUBLIC e4d0 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<16, 8u> >, TSizedDefaultAllocator<32> >::~TArray()
+PUBLIC e4f0 0 TArray<TSparseArrayElementOrFreeListLink<TAlignedBytes<16, 8u> >, TSizedDefaultAllocator<32> >::ResizeTo(int)
+PUBLIC e558 0 __do_global_ctors_aux
+PUBLIC e57c 0 _init
+PUBLIC e5a0 0 _fini

@@ -1,0 +1,145 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch unreal_gamejam_2022 (Debug)",
+			"request": "launch",
+			"program": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Binaries/Linux/UnrealGame-Linux-Debug",
+			"preLaunchTask": "unreal_gamejam_2022 Linux Debug Build",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Launch unreal_gamejam_2022 (DebugGame)",
+			"request": "launch",
+			"program": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Binaries/Linux/UnrealGame-Linux-DebugGame",
+			"preLaunchTask": "unreal_gamejam_2022 Linux DebugGame Build",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Launch unreal_gamejam_2022 (Development)",
+			"request": "launch",
+			"program": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Binaries/Linux/UnrealGame",
+			"preLaunchTask": "unreal_gamejam_2022 Linux Development Build",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Launch unreal_gamejam_2022 (Test)",
+			"request": "launch",
+			"program": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Binaries/Linux/UnrealGame-Linux-Test",
+			"preLaunchTask": "unreal_gamejam_2022 Linux Test Build",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Launch unreal_gamejam_2022 (Shipping)",
+			"request": "launch",
+			"program": "/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Binaries/Linux/UnrealGame-Linux-Shipping",
+			"preLaunchTask": "unreal_gamejam_2022 Linux Shipping Build",
+			"args": [
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Launch unreal_gamejam_2022Editor (Debug)",
+			"request": "launch",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+			"preLaunchTask": "unreal_gamejam_2022Editor Linux Debug Build",
+			"args": [
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Launch unreal_gamejam_2022Editor (DebugGame)",
+			"request": "launch",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+			"preLaunchTask": "unreal_gamejam_2022Editor Linux DebugGame Build",
+			"args": [
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Launch unreal_gamejam_2022Editor (Development)",
+			"request": "launch",
+			"program": "/opt/unreal-engine/Engine/Binaries/Linux/UnrealEditor",
+			"preLaunchTask": "unreal_gamejam_2022Editor Linux Development Build",
+			"args": [
+				"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject"
+			],
+			"cwd": "/opt/unreal-engine",
+			"type": "cppdbg",
+			"visualizerFile": "/opt/unreal-engine/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true,
+			"sourceFileMap": {
+				"/home/mfaqiri/.cache/yay/unreal-engine/src/unreal-engine": "/opt/unreal-engine"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/opt/unreal-engine/Engine/Binaries/DotNET/UnrealBuildTool/UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/unreal_gamejam_2022.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/opt/unreal-engine"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/unreal_gamejam_2022/unreal_gamejam_2022.cpp.o"
+"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/unreal_gamejam_2022/unreal_gamejam_2022GameModeBase.cpp.o"
+"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/unreal_gamejam_2022/unreal_gamejam_2022.init.gen.cpp.o"
+"/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Intermediate/Build/Linux/B4D820EA/UnrealEditor/Development/unreal_gamejam_2022/unreal_gamejam_2022GameModeBase.gen.cpp.o"
+ -soname="libUnrealEditor-unreal_gamejam_2022.so"
+ -rpath-link="/home/mfaqiri/Documents/projects/unreal-projects/epic-gamejam/unreal_gamejam_2022/Binaries/Linux"
+ -L"/opt/unreal-engine/Engine/Binaries/Linux"
+ --start-group
+ --end-group
