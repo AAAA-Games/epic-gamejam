@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\mfaqiri\\documents\\projects\\unreal-projects\\epic-gamejam\\epic_gamejam_2022\\intermediate\\build\\win64\\unrealeditor\\inc\\epic_gamejam_2022\\epic_gamejam_2022.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mfaqiri\\documents\\projects\\unreal-projects\\epic-gamejam\\epic_gamejam_2022\\intermediate\\build\\win64\\epic_gamejam_2022editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\mfaqiri\\documents\\projects\\unreal-projects\\epic-gamejam\\epic_gamejam_2022\\intermediate\\build\\win64\\unrealeditor\\development\\epic_gamejam_2022\\definitions.epic_gamejam_2022.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

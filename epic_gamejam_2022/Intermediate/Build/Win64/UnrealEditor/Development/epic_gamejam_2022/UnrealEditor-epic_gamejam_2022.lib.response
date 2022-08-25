@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-epic_gamejam_2022.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mfaqiri\Documents\projects\unreal-projects\epic-gamejam\epic_gamejam_2022\Intermediate\Build\Win64\epic_gamejam_2022Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\mfaqiri\Documents\projects\unreal-projects\epic-gamejam\epic_gamejam_2022\Intermediate\Build\Win64\UnrealEditor\Development\epic_gamejam_2022\epic_gamejam_2022.cpp.obj"
+"C:\Users\mfaqiri\Documents\projects\unreal-projects\epic-gamejam\epic_gamejam_2022\Intermediate\Build\Win64\UnrealEditor\Development\epic_gamejam_2022\epic_gamejam_2022GameModeBase.cpp.obj"
+"C:\Users\mfaqiri\Documents\projects\unreal-projects\epic-gamejam\epic_gamejam_2022\Intermediate\Build\Win64\UnrealEditor\Development\epic_gamejam_2022\epic_gamejam_2022.init.gen.cpp.obj"
+"C:\Users\mfaqiri\Documents\projects\unreal-projects\epic-gamejam\epic_gamejam_2022\Intermediate\Build\Win64\UnrealEditor\Development\epic_gamejam_2022\epic_gamejam_2022GameModeBase.gen.cpp.obj"
+"C:\Users\mfaqiri\Documents\projects\unreal-projects\epic-gamejam\epic_gamejam_2022\Intermediate\Build\Win64\UnrealEditor\Development\epic_gamejam_2022\Default.rc2.res"
+/OUT:"C:\Users\mfaqiri\Documents\projects\unreal-projects\epic-gamejam\epic_gamejam_2022\Intermediate\Build\Win64\UnrealEditor\Development\epic_gamejam_2022\UnrealEditor-epic_gamejam_2022.lib"

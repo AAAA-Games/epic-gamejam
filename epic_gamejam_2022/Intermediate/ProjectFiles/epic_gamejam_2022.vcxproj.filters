@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\epic_gamejam_2022.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\epic_gamejam_2022.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\epic_gamejam_2022Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\epic_gamejam_2022">
+      <UniqueIdentifier>{28626563-79A0-3CB4-9E41-CAC399C0ECB6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\epic_gamejam_2022\epic_gamejam_2022.Build.cs">
+      <Filter>Source\epic_gamejam_2022</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\epic_gamejam_2022\epic_gamejam_2022.cpp">
+      <Filter>Source\epic_gamejam_2022</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\epic_gamejam_2022\epic_gamejam_2022.h">
+      <Filter>Source\epic_gamejam_2022</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\epic_gamejam_2022\epic_gamejam_2022GameModeBase.cpp">
+      <Filter>Source\epic_gamejam_2022</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\epic_gamejam_2022\epic_gamejam_2022GameModeBase.h">
+      <Filter>Source\epic_gamejam_2022</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
